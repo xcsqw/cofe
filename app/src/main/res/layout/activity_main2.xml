@@ -82,13 +82,13 @@
             android:id="@+id/raf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Раф ( + 175 Рублей)" />
 
         <RadioButton
             android:id="@+id/cacao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Какао ( + 225 Рублей) " />
     </RadioGroup>
 
     <Button
@@ -100,7 +100,7 @@
         android:layout_marginBottom="30dp"
         android:gravity="center"
         android:onClick="back"
-        android:text="Перейти в корзину"
+        android:text="Оформить заказ и перейти в главное меню"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

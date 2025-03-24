@@ -65,7 +65,7 @@ public class MainActivity2 extends AppCompatActivity {
         raf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(raf.isChecked() == true){
+                if(raf.isChecked() ){
                     priceSum += 175;
                     select.setText(priceSum + " Рублей");
 
